@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif; 
     line-height: 1.6;}
 header {
-    background: #2c3e50; 
+    background: pink; 
     color: antiquewhite; 
     padding: 2rem; 
     text-align: center;}
@@ -18,7 +18,7 @@ main {
 section {
     margin-bottom: 2rem;}
 h2 {
-    border-bottom: 2px solid #2c3e50; 
+    border-bottom: 2px solid pink; 
     padding-bottom: 0.5rem; 
     margin-bottom: 1 rem;}
 .member {
@@ -27,7 +27,7 @@ h2 {
     margin-bottom: 1rem; 
     border-radius: 5px;}
 footer {
-    background: #2c3e50; 
+    background: pink; 
     color: antiquewhite; 
     text-align: center; 
     padding: 1rem;}
