@@ -8,7 +8,7 @@ body {
     line-height: 1.6;}
 header {
     background: pink; 
-    color: antiquewhite; 
+    color: black; 
     padding: 2rem; 
     text-align: center;}
 main {
@@ -28,6 +28,6 @@ h2 {
     border-radius: 5px;}
 footer {
     background: pink; 
-    color: antiquewhite; 
+    color: black; 
     text-align: center; 
     padding: 1rem;}
