@@ -2,21 +2,6 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-        border: 3px solid #00ffff;
-    box-shadow: 0 0 5px #00ffff,
-                0 0 15px #00ffff,
-                0 0 30px #00ffff,
-                0 0 40px #00ffff,
-    animation: glowing-border 2s ease-in-out infinite alternate;}
-@keyframes glowing-border {
-    0% {box-shadow: 0 0 5px #00ffff,
-                0 0 15px #00ffff,
-                0 0 30px #00ffff,
-                0 0 40px #00ffff,}
-    100% {box-shadow: 0 0 10px #00ffff,
-                0 0 20px #00ffff,
-                0 0 40px #00ffff,
-                0 0 60px #00ffff,}
 }
 body {
     font-family: Arial, sans-serif; 
