@@ -11,7 +11,7 @@ body {
     background: radial-gradient(circle, rgb(151, 81, 93), pink);}
 header {
     background: radial-gradient(circle, rgb(151, 81, 93), pink); 
-    color: antiquewhite; 
+    color: white; 
     padding: 2rem; 
     text-align: center;}
 main {
@@ -39,7 +39,7 @@ h2 {
     margin-right: auto;}
 footer {
     background: radial-gradient(circle, rgb(151, 81, 93), pink); 
-    color: antiquewhite; 
+    color: white; 
     text-align: center; 
     padding: 1rem;
 }
