@@ -19,7 +19,8 @@ main {
     margin: 0 auto; 
     padding: 2rem;}
 section {
-    margin-bottom: 2rem;}
+    margin-bottom: 2rem;
+    text-align: center;}
 h2 {
     border-bottom: 2px radial-gradient(circle, rgb(151, 81, 93), pink); 
     padding-bottom: 0.5rem; 
