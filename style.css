@@ -32,12 +32,29 @@ h2 {
     border-radius: 5px;
     text-align: center;}
 .member-image {
+    transform: scale(0.85);
+    opacity: 0.6;
     width: 200px;
     height: auto;
     margin-bottom: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    view-timeline-name: --img;
+    view-timeline-axis: block;
+    animation: zoomIn linear both;
+    animation-timeline: --img;
+    animation-range: entry 30% cover 50%;}
+@keyframes zoomIn {
+    from{
+        transform: scale(0.85);
+        opacity: 0.6;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 footer {
     background: radial-gradient(circle, rgb(151, 81, 93), pink); 
     color: white; 
