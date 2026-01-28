@@ -37,8 +37,7 @@ h2 {
   height: 160px;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin: 0 auto 10px auto;
+  margin-bottom: 10px;
   position: relative;
   z-index: 2;
 }
@@ -49,8 +48,9 @@ h2 {
   height: 160px;
   background: radial-gradient(circle, rgb(151, 81, 93), pink);
   border-radius: 50%;
-  left: calc(50% - 90px);
-  top: 25px;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
 }
 
