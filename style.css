@@ -26,32 +26,42 @@ h2 {
     padding-bottom: 0.5rem; 
     margin-bottom: 1 rem;}
 .member {
+    position: relative;
     background: #f4f4f4; 
-    padding: 1rem; 
+    padding: 10px; 
     margin-bottom: 1rem; 
-    border-radius: 5px;
+    border-radius: 12px;
+    animation: slideCard 0.8s ease forwards;
+    opacity: 0;
     text-align: center;}
 .member-image {
     transform: scale(0.85);
-    opacity: 0.6;
+    opacity: 0;
     width: 200px;
     height: auto;
-    margin-bottom: 10px;
+    margin: auto;
+    border-radius: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    view-timeline-name: --img;
-    view-timeline-axis: block;
-    animation: zoomIn linear both;
-    animation-timeline: --img;
-    animation-range: entry 30% cover 50%;}
-@keyframes zoomIn {
+    transform: translateY(40px) scale(0.85);
+    animation: slideUp 0.8s ease forwards;
+    animation-delay: 0.2s;}
+@keyframes slideCard {
     from{
-        transform: scale(0.85);
-        opacity: 0.6;
+        transform: translateY(30px);
+        opacity: 0;
     }
     to {
-        transform: scale(1);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideUp {
+    from{
+        transform: translateY(40px) scale(0.85);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
         opacity: 1;
     }
 }
