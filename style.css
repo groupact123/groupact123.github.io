@@ -48,7 +48,7 @@ h2 {
   height: 175px;
   background: radial-gradient(circle, rgb(151, 81, 93), pink);
   border-radius: 20%;
-  top: 32px;
+  top: 42px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
